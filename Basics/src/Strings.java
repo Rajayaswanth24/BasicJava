@@ -16,6 +16,10 @@ public class Strings {
 	
 
 		}
+		String st=Integer.toString(value);
+		String[] sta;
+		sta=st.split("");
+		System.out.println(sta[sta.length-1]);
 		ch = Integer.toString(value).chars().map(c -> c-'0').toArray();  
 		
 		System.out.println("chararray length - "+ch.length);
